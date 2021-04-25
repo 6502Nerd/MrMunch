@@ -291,7 +291,7 @@ namespace MrMunch
                                     "Sound by John Coleman\r" +
                                     "First written in C++ for\r" +
                                     "Windows 95 and DirectDraw!\r" +
-                                    "(c) 1998-2018", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                    "(c) 1996-2021", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			menuItemPaused_Click(sender, e);
 		}
 
@@ -299,7 +299,7 @@ namespace MrMunch
         {
             GameControl.gamePaused = false;
             menuItemPaused_Click(sender, e);
-            MessageBox.Show(this,   "Use the cursor keys to control the Pac-Man.\r\r" +
+            MessageBox.Show(this,   "Use the cursor keys to control Mr Munch.\r\r" +
                                     "Eat all the dots whilst avoiding the ghosts\r" +
                                     "to complete a level.\r\r" +
                                     "Eating a power pill allows the ghosts to be\r" +
